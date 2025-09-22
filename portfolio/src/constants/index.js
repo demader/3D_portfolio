@@ -1,9 +1,8 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+
 import {
-    car,
+
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -15,16 +14,19 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    col_logo,
+    droply,
+    dataalchemist,
+    chat
 } from "../assets/icons";
+
+import { canyfix, cloudsciencelabs_logo,freelance} from "../assets/images";
 
 export const skills = [
     {
@@ -109,60 +111,53 @@ export const skills = [
     }
 ];
 
-// export const experiences = [
-//     {
-//         title: "React.js Developer",
-//         company_name: "Starbucks",
-//         icon: starbucks,
-//         iconBg: "#accbe1",
-//         date: "March 2020 - April 2021",
-//         points: [
-//             "Developing and maintaining web applications using React.js and other related technologies.",
-//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//             "Implementing responsive design and ensuring cross-browser compatibility.",
-//             "Participating in code reviews and providing constructive feedback to other developers.",
-//         ],
-//     },
-//     {
-//         title: "React Native Developer",
-//         company_name: "Tesla",
-//         icon: tesla,
-//         iconBg: "#fbc3bc",
-//         date: "Jan 2021 - Feb 2022",
-//         points: [
-//             "Developing and maintaining web applications using React.js and other related technologies.",
-//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//             "Implementing responsive design and ensuring cross-browser compatibility.",
-//             "Participating in code reviews and providing constructive feedback to other developers.",
-//         ],
-//     },
-//     {
-//         title: "Web Developer",
-//         company_name: "Shopify",
-//         icon: shopify,
-//         iconBg: "#b7e4c7",
-//         date: "Jan 2022 - Jan 2023",
-//         points: [
-//             "Developing and maintaining web applications using React.js and other related technologies.",
-//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//             "Implementing responsive design and ensuring cross-browser compatibility.",
-//             "Participating in code reviews and providing constructive feedback to other developers.",
-//         ],
-//     },
-//     {
-//         title: "Full stack Developer",
-//         company_name: "Meta",
-//         icon: meta,
-//         iconBg: "#a2d2ff",
-//         date: "Jan 2023 - Present",
-//         points: [
-//             "Developing and maintaining web applications using React.js and other related technologies.",
-//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//             "Implementing responsive design and ensuring cross-browser compatibility.",
-//             "Participating in code reviews and providing constructive feedback to other developers.",
-//         ],
-//     },
-// ];
+
+export const experiences = [
+    {
+        title: "Salesforce Developer Intern",
+        company_name: "Cloud Science Labs",
+        icon:cloudsciencelabs_logo, // add your logo import here
+        iconBg: "#accbe1",
+        date: "Jan 2025 - June 2025",
+        points: [
+            "Developed and customized Salesforce applications using Apex, Visualforce, and Lightning Web Components (LWC).",
+            "Built a Smart ServiceDesk platform to manage internal tickets, automate workflows, and enhance service efficiency.",
+            "Designed custom objects, flows, validation rules, and triggers to implement scalable business logic.",
+            "Integrated third-party APIs and tools to expand platform functionality and optimize user workflows.",
+            "Collaborated with mentors and followed Salesforce best practices to improve maintainability and scalability.",
+        ],
+    },
+    {
+        title: "Software Developer Intern",
+        company_name: "Canyfix",
+        icon:canyfix, 
+        iconBg: "#fbc3bc",
+        date: "May 2024 - Dec 2024",
+        points: [
+            "Developed modular frontend architecture using React and Redux, improving maintainability and cross-team collaboration.",
+            "Designed a Next.js admin dashboard enabling CRUD operations on vendors, services, and appointments.",
+            "Built a cross-device responsive UI with Tailwind CSS and Next.js, streamlining signup/booking and reducing drop-off by 30%.",
+            "Integrated 2+ third-party SaaS APIs (CRM & booking) via Axios, improving responsiveness and reducing sync errors by 40%.",
+            "Built an animated landing page with Framer Motion, improving user engagement by 20% and reducing bounce rate by ~10%.",
+        ],
+    },
+    {
+        title: "Full-Stack Developer (Freelance)",
+        company_name: "Self-Employed",
+        icon: freelance, 
+        iconBg: "#b7e4c7",
+        date: "2024 - Present",
+        points: [
+            "Developed and deployed a responsive Fire & Safety Services website, improving online visibility and client engagement.",
+            "Delivered a chatbot application (SciGinie) using React and FastAPI to handle user queries with AI-powered responses.",
+            "Built a Cloud-Native eKart platform with microservices for users, products, orders, and payments, deployed with Docker and AWS ECS.",
+            "Implemented API Gateway and event-driven architecture (Kafka) for real-time inventory sync and order tracking.",
+            "Worked directly with clients to gather requirements, design solutions, and deploy scalable web applications.",
+            "Ensured high-quality deliverables through testing, performance optimization, and continuous feedback loops.",
+        ],
+    },
+];
+
 
 export const socialLinks = [
     {
@@ -183,46 +178,40 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    // {
-    //     iconUrl: pricewise,
-    //     theme: 'btn-back-red',
-    //     name: 'Amazon Price Tracker',
-    //     description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    //     link: 'https://github.com/adrianhajdin/pricewise',
-    // },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
+   
+     {
+        iconUrl: dataalchemist,
+        theme: 'btn-back-black',
+        name: 'Data Alchemist',
+        description: 'AI-enabled platform to upload, clean, and validate CSV/XLSX datasets with auto-generated business rules and rule logic.',
+        link: 'https://github.com/demader/alchemist',
+    },
     {
-        iconUrl: summiz,
+        iconUrl: droply,
+        theme: 'btn-back-blue',
+        name: 'Droply',
+        description: 'Secure, scalable file storage platform with CRUD operations, CDN optimization, and serverless backend for fast data processing.',
+        link: 'https://github.com/demader/droply',
+    },
+    {
+        iconUrl: col_logo,
+        theme: 'btn-back-red',
+        name: 'Fire & Safety Services Website',
+        description: 'Developed a responsive service-oriented website for a fire safety company, showcasing services, booking, and client engagement features.',
+        link: 'https://github.com/demader/Fire_and_safety', // replace with repo or deployed link if available
+    },
+    {
+        iconUrl: chat,
+        theme: 'btn-back-green',
+        name: 'Chatbot SciGinie',
+        description: 'Built an AI-powered chatbot application using FastAPI and React to assist users with dynamic query handling and smart responses.',
+        link: 'https://github.com/demader/Chatbot/tree/main/Chatbot', // replace with repo or deployed link if available
+    },
+    {
+        iconUrl:summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        description: 'App leveraging AI to automatically generate concise & informative summaries from lengthy text or blog content.',
         link: 'https://github.com/demader/Ai_Summerizer',
-    }
+    },
 ];

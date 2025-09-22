@@ -1,11 +1,11 @@
-// import {
-//   VerticalTimeline,
-//   VerticalTimelineElement,
-// } from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 
 import CTA  from "../components/CTA";
 import { skills } from "../constants";
-
+import { experiences } from "../constants";
 import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
@@ -22,8 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer from India, specializing in technical
-          education through hands-on learning and building applications.
+        “I’m a Software Engineer from India with a passion for building scalable web applications and modern digital experiences. Over the years, I’ve worked across frontend, backend, and cloud technologies, focusing on creating products that are not only functional but also user-friendly. I believe in learning by doing, and my journey has been shaped by hands-on projects, freelance work, and real-world problem solving.”
         </p>
       </div>
 
@@ -50,11 +49,11 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            Currently I have no work experience at industry level
+            “I have gained valuable work experience through internships and freelance projects, where I developed full-stack applications, built scalable systems, and delivered client-focused solutions.”
           </p>
         </div>
 
-        {/* <div className='mt-12 flex'>
+        <div className='mt-12 flex'>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
@@ -102,7 +101,7 @@ const About = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
-        </div> */}
+        </div>
       </div>
 
       <hr className='border-slate-200' />

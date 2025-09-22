@@ -1,15 +1,11 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import canyfix from './canyfix.svg'
+import cloudsciencelabs_logo from './cloudsciencelabs_logo.jpg'
 import logo from './logo.svg'
+import freelance from './freelance.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    canyfix,
+    cloudsciencelabs_logo,
+    logo,
+    freelance
 }
